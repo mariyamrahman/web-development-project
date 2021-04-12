@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENIMAI</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 103px;
+            background-size: cover;
+            background-image: url("https://img.freepik.com/free-vector/mobile-app-development-background_73903-295.jpg?size=626&ext=jpg&ga=GA1.2.1030426669.1618099200");
+        }
+
+        .left {
+            height: 23px 2px;
+        }
+
+        img {
+            height: 92px;
+            width: 180px;
+            padding: 15px;
+        }
+
+        .item {
+            list-style: none;
+            display: inline-block;
+            margin: 0px 76px;
+            padding: 2px 34px;
+            font-size: 26px;
+            font-weight: bolder;
+            color: black;
+
+        }
+
+        .item:hover {
+            color: rgb(62, 37, 202);
+            font-size: 33px;
+            font-weight: bolder;
+            text-shadow: cadetblue;
+        }
+
+        .first {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 23px;
+            margin: 30px 30px;
+            padding: 5px 5px;
+            text-align: center;
+            background-image: url("https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?size=626&ext=jpg");
+            background-repeat: no-repeat;
+            background-size: 1450px 800px;
+            color: black;
+
+        }
+
+        .heading_primary {
+            margin: auto 428px;
+            display: block;
+            width: 36%;
+            font-size: 45px;
+            padding: 33px 150px;
+            color: black;
+            background-color: rgb(62, 111, 126);
+            /* text-decoration: underline; */
+        }
+
+        .firstimage {
+            margin: 20px 20px;
+            padding: 3px 3px;
+            justify-content: center;
+
+        }
+
+        .secondimage {
+            margin: 20px 20px;
+            padding: 3px 3px;
+            justify-content: center;
+        }
+
+        .thirdimage {
+            margin: 20px 20px;
+            padding: 3px 3px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fourthimage {
+            margin: 20px 20px;
+            padding: 3px 3px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: red;
+            background-image: url("https://d1.awsstatic.com/webteam/homepage/heroes/overlay-art/Site-Merch_What-is-AWS_Hero-Art.d92a5ae5daf0c0735f49b06814bee7a07742ba20.png");
+
+        }
+
+        .heading_secondary {
+            margin: auto 428px;
+            display: block;
+            width: 36%;
+            font-size: 45px;
+            padding: 33px 150px;
+            color: black;
+            background-color: rgb(62, 111, 126);
+            /* text-decoration: underline; */
+            margin: 43px 433px;
+        }
+
+
+
+        .third {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 23px;
+            margin: 30px 30px;
+            padding: 5px 5px;
+            text-align: center;
+            background-image: url("https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?size=626&ext=jpg");
+            background-repeat: no-repeat;
+            background-size: 1450px 1150px;
+            color: black;
+
+        }
+
+        .fourth{
+            background-image: url("https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?size=626&ext=jpg");
+            background-repeat: no-repeat;
+            background-size: 1550px 1000px;
+            /* display: inline; */
+        }
+
+        .heading_tertiary {
+            margin: auto 428px;
+            display: block;
+            width: 36%;
+            font-size: 45px;
+            padding: 33px 150px;
+            color: black;
+            background-color: rgb(62, 111, 126);
+            /* text-decoration: underline; */
+            margin: 43px 433px;
+        }
+
+        .form-group input {
+        text-align: center;
+        margin: 4px 6px;
+        padding: 15px 71px;
+        font-size: 20px;
+        border-radius: 8px;
+        color: black;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        margin: 6px 3px;
+        padding: 8px 135px;
+        border-radius: 5px;
+        position: sticky;
+        font-size: 22px;
+    }
+
+    .btn:hover {
+        background-color: rgb(62, 111, 126);
+    }
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 15px 8px;
+    padding: 10px 5px;
+}
+
+@media (max-width:600px)  {
+            .header{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFUjLT4QopBpA/company-logo_200_200/0/1597329297226?e=2159024400&v=beta&t=nPb0fFb7whRkfh7xdebfr5FaRitQBHl-grquZ3DbSdo"
+                alt="ENIM AI">
+            <!-- <div class="title"><strong>ENIM AI</strong></div> -->
+        </div>
+
+        <div class="navbar">
+            <ul id="navbar1">
+                <li class="item" id="item1"><a href="#"></a>Home</li>
+                <li class="item"><a href="#"></a>Partners</li>
+                <li class="item"><a href="#"></a>Services</li>
+                <li class="item"><a href="#"></a>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="first">
+        <p>At <strong>Enim AI</strong> , we develop innovative and creative products and services that provide total
+            communication and information solutions. Among a plethora of services, web design and development, tailor
+            made applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client
+            applications, managed hosting and internet portal management are few that we offer. Satisfied clients around
+            the globe bear testimony to the quality of our work.
+            <br>
+            As a leader in technology exploring, Enim AI is committed to exporting quality software worldwide.
+            <br> <br>
+            The general purpose of Enim AI is to develop and promote advanced information technologies for multi-user
+            operation.
+            <br> <br> <br>
+            Enim AI's business philosophy is to assure:- <br> -the highest quality product,<br> -total client
+            satisfaction, <br> -timely delivery of solutions and <br> -the best quality/price ratio found in the
+            industry.
+            <br>
+            Our emphasis is on offering a high degree of product user friendliness through a positive, creative and
+            focused company staff.
+        </p>
+    </section>
+
+    <section class="second">
+        <h1 class="heading_primary">PARTNERS</h1>
+        <div class="container">
+            <div class="firstimage">
+                <img src="dfy.jpeg" alt="">
+                <h1>DESIGN FOR YOU</h1>
+            </div>
+
+            <div class="secondimage">
+                <img src="biopharm.jpeg" alt="">
+                <h1>BIOPHARM SOLUTIONS</h1>
+            </div>
+
+            <div class="thirdimage">
+                <img src="gtc.jpeg" alt="">
+                <h1>GHANSHYAAM TRADING CO.</h1>
+            </div>
+
+            <div class="fourthimage">
+                <img src="kredence.jpeg" alt="">
+                <h1>KREDENCE</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="third">
+        <h1 class="heading_secondary">SERVICES</h1>
+        <h2 class="sub-heading_secondary">The services provided by us are:-</h2>
+        <br>
+
+        <h3>1.UI/UX Design-</h3>
+        <p>UX Design refers to the term User Experience Design, while UI Design stands for User Interface Design. Both
+            elements are crucial to a product and work closely together. But despite their professional relationship,
+            the roles themselves are quite different, referring to very different parts of the process and the design
+            discipline. User experience (UX) refers to any interaction a user has with a product or service. UX design
+            considers each and every element that shapes this experience, how it makes the user feel, and how easy it is
+            for the user to accomplish their desired tasks. UI design is the look and feel, the presentation and the
+            interactivity of a product.</p>
+
+        <br>
+        <h3>2.Mobile Development-</h3>
+        <p>Mobile development is doing any kind of development for any kind of mobile device. It also doesn't
+            necessarily mean developing purely mobile applications, since even web developers today have to think about
+            how their applications are going to be used and accessed on a mobile device.</p>
+
+        <br>
+        <h3>3.Web Development-</h3>
+        <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to
+            make a website look great, work fast and perform well with a seamless user experience. Web developers, or
+            'devs', do this by using a variety of coding languages.</p>
+
+        <br>
+        <h3>4. Custom Software Development-</h3>
+        <p>Customised software is software that is specially developed for some specific organization or other user. As
+            such, it can be contrasted with the use of software packages developed for the mass market, such as
+            commercial off-the-shelf software, or existing free software.</p>
+
+        <br>
+        <h3>5. Deployment and Maintainance-</h3>
+        <p>Deployment is the mechanism through which applications, modules, updates, and patches are delivered from
+            developers to users. The methods used by developers to build, test and deploy new code will impact how fast
+            a product can respond to changes in customer preferences or requirements and the quality of each change.</p>
+
+    </section>
+
+    <footer class="fourth">
+        <h1 class="heading_tertiary">CONTACT</h1>
+        <div class="form">
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR NAME">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR AGE">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR GENDER">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR ADDRESS">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR PHONE NO.">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="ENTER YOUR E-MAIL">
+                </div>
+                <button class="btn"><strong>Submit Now</strong></button>
+            </form>
+        </div>
+
+        <div class="contact">
+         <h2>For direct contact call us at <strong>6758465739</strong> or mail us at <strong>office.email@gmail.com</strong></h2>
+        </div>
+    </footer>
+</body>
+
+</html>
